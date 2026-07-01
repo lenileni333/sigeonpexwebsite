@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soney Mex Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="calculator.js" defer></script>
+    <script src="buttons.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Soney Mex Calculator</h1> <br>
+        <h3>Use this if you want to convert into soney mex</h3>
+    </header>
+    <section class="calculator">
+        <label>International Goon Coin [IGC]</label>
+        <input type="number" id="igcInput" placeholder="Positive Integer" oninput="IGCtoPXD()"><br>
+
+        <label>New Pexian Dollar [PXD]</label>
+        <input type="number" id="pxdInput" placeholder="Positive Integer" oninput="PXDtoIGC()"><br>
+    </section>
+    <footer>
+        <h2>Navigation</h2>
+        <button id="index">Back</button>
+    </footer>
+</body>
+</html>
